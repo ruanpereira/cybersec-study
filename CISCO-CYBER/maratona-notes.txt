@@ -1,0 +1,117 @@
+Anotações da primeira matarona de Cybersegurança da CISCO. 
+
+Type of threats: internal and external, such as, respectivally, ex-employees and staff/ amateurs, white & grey & black hats,
+hacktivists. 
+
+Users are the most weak link of security (duh, humans). Don't have awareness of security, security policies (and not using them),
+data stolen, unauthorized downloads&media, unauthorized vpn, websites, and so on.
+
+Open computers and softwares from thid-party with no security are threats, and lack of updates(software and hardware, research for
+the threats for each situation) and policies for security too.
+
+For LAN: 
+
+  - Unauthorized acess
+  - exploits of data in transit
+  - misconfigured firewalls
+  - rogue users having unauthorized acess
+  - software or network vulnerabilities that comes with a lack of updates
+
+For private cloud: (RFN means router firewall network)
+
+  - Unauthorized acess to resources
+  - Unauthorized network probind and port scanning 
+  - Vulnerabilies from software or hardware in RFN
+  - COnfiguration errors on hardware for RFN
+  - REmote users acess to data
+
+For public cloud:
+
+  - 3 models used by organizations: 
+  
+    -- Saas:  subscription-based model that provides organizations with software that is centrally hosted and accessed by users via a web browser, app or other software. In other words, this is software not stored locally but in the cloud. 
+    -- Paas: develop, run and manage applications on the service hardware, using tools privided by the service. Also runs on cloud.
+    -- Iaas: provides virtual computing resources such as hardware, software, servers and other infraestructure componentes over the internet.
+    An org. will buy the acess and use the public cloud to acess them.
+
+Most common threats to public cloud:
+ - Data breaches
+ - Loss or theft of intellectual property
+ - Comprimised credentiais or account hijacking
+ - Social engineering attacks
+ - Compliance violation (violação de um acordo ou conformidade entre partes)
+
+Examples of threats to an organization’s physical facilities domain include:
+
+   - Natural threats such as extreme weather and geological hazards.
+   - Someone gaining unauthorized access to the premises.
+   - Power interruptions or outages.
+   - Social engineering attacks that attempt to find out about an organization’s security policies and procedures.
+   - Breaches of electronic perimeter defenses.
+   - Theft.
+   - An unlocked data center.
+   - A lack of surveillance on the premises.
+
+Application domain includes all of the critical systems, applications and data used for support of operations. Some applications, such as email and
+database management, is going to the cloud on actual days.
+
+Common threats to applications:
+
+- Someone gaining unauthorized acess to data centers, computer rooms, wiring closets or/AND systems.
+- Server downtime during maintenance periods
+- Network operating system software vulnerabilities.
+- Data loss.
+- Client-server or web application devel. vulnerabilities.
+
+Software vulnerabilities is result of programming mistakes, protocol vunerabilities, or system misconfigurations.
+
+Commom software vulnerabilities attacks are:
+
+- ADVANCED PERSISTENT THREAT(APT): Continuous attack that uses espionage tactics involving multiple actors, and/or sophisticated malware to analyze and gain acess to a target network.
+Occurs from under the radar, with long periods of time. Targets are high-level orgs and goverments, and the attacks are well-funded and planned.
+
+- Algorithm attacks take advantage of algorithms in a piece of legitimate software to generate unintended behaviours, like trigger false alarms or
+overload the CPU or RAM.
+
+Threat intelligence data (for study of attacks like this). There is private source data (pay to have acess to that data), or open source intelligence data
+(OSINT, free to acess data).
+
+Backdoor is malware used to gain unauthorized acess to a system bypassing the normal authentication procedures. Some examples are Netbus and Back Orifice.
+Normal usage is that authorized users, unknowingly, run a remote administrative tool (RAT) on their machine to install a backdoor that gives to the criminal administative control over a target computer.
+
+Rootkits is malware designed to modify the operating system to create a backdoor, which attackers can use to acess the computer remotely. They take advantages of software vulnerabilities to gain acess to resources that shoudn't be acessible(privilege escallation) and modify system files.
+Can also modify system tools and forensic analysis.
+
+United States Computer Emergency Resources (US-CERT), create a dictionary of Common vulnerabilities and exposures(CVE). Each CVE entry has a standard identifier number, a brief discription of the security vulnerability, and any important references to related vunerability reports. The CVE list is on
+MITRE corp website.
+Other sources are the dark web, indicators of comprimise (IOC)[malware signatures, domain names], automated indicator sharing (AIS), by CISA, uses STIX and TAXII.
+
+
+Social engineering attempts to manipulate individuals into performing actions or divulging confidential information. Exploits human nature, taking
+advantage of peoples help, or their weakness.
+
+Types of social engineering:
+
+- Pretexting
+- Quid pro quo
+- Identity fraud
+
+Tactics of social engineering:
+
+- Authority (more likely to comply when instructed by someone they perceive as an authority)
+- Intimidation
+- Consensus
+- Scarcity
+- Urgency
+- Familiarity
+- Trust
+
+Shoulder surfing = look one person do something and be there looking to see important data or other things.
+
+Dumpster diving = look thought thrown out information.
+
+Impersonation = Pretend to be someone, and trick someone.
+
+Hoax = Act intended to deceive or trick someone.
+
+
